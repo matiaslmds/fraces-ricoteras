@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+    background:url(./img/redondos.png) no-repeat center center/cover ;
+    
+}
+
+.contenido-centrado {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor {
+    width: 80vh;
+    max-width: 600px;
+    min-height: 600px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border: 5px solid #000000;
+    border-radius: 30px;
+
+}
+
+
+.contenedor-interno {
+    display: grid;
+    height: 100%;
+    width: 100%;
+}
+
+#titulo {
+    width: 100%;
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    color: #f8f8f8;
+}
+
+#frace {
+    color: #f8f8f8;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#autor {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px ;
+    font-family: 'Courgette', cursive;
+    color: #ff0000;
+}
+
+#cambiar-frace {
+    width: 180px;
+    height: 50px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #f8f8f8;
+}
